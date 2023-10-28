@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and text alignment for the whole page */
+  body {
+    text-align: center;
+    background-color: #f2f2f2; /* A light gray background color */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the accordion */
+  .accordion-panel {
+    display: none;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .tab-panel.active {
+    display: block;
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  ul.accordion {
+    list-style: none;
+    padding: 0;
+    font-size: 18px; /* Increase font size for better readability */
+  }
+  
+  button.accordion-control {
+    background-color: #3498db; /* A blue background color */
+    color: #fff;
+    padding: 15px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.accordion-control:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Style the tab list */
+  ul.tab-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.tab-list li {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  ul.tab-list li.active {
+    background-color: #3498db; /* Blue for the active tab */
+  }
+  
+  ul.tab-list li.active a {
+    color: #fff; /* White text for the active tab */
+  }
+  
+  /* Style the tab panels */
+  .tab-panel {
+    display: none;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab-panel.active {
+    display: block;
+  }
+  
