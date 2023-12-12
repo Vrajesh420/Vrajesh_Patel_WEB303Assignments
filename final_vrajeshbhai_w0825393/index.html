@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vrajesh</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-university"></i> vrajesh Bank
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="#">Home</a>
+        <a class="nav-item nav-link" href="#">Services</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Main Heading -->
+  <div class="container text-center mt-5">
+    <h1 class="text-danger">Welcome to vrajesh Bank</h1>
+  </div>
+
+  <!-- Account Types -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Savings Account -->
+      <div class="col-md-4">
+        <figure class="text-center">
+          <img src="bank.jpg" class="img-fluid" alt="Savings Account">
+          <figcaption class="figure-caption">Savings Account</figcaption>
+        </figure>
+        <button type="button" class="btn btn-secondary popover-dismiss" title="Savings Account" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Secure savings with competitive interest rates.">Learn More</button>
+      </div>
+      <!-- Checking Account -->
+      <div class="col-md-4">
+        <figure class="text-center">
+          <img src="images.jpeg" class="img-fluid" alt="Checking Account">
+          <figcaption class="figure-caption">Checking Account</figcaption>
+        </figure>
+        <button type="button" class="btn btn-secondary popover-dismiss" title="Checking Account" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Easy access and management of your funds.">Learn More</button>
+      </div>
+      <!-- Business Account -->
+      <div class="col-md-4">
+        <figure class="text-center">
+          <img src="images-2.jpeg" class="img-fluid" alt="Business Account">
+          <figcaption class="figure-caption">Business Account</figcaption>
+        </figure>
+        <button type="button" class="btn btn-secondary popover-dismiss" title="Business Account" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Tailored solutions for your business banking needs.">Learn More</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Loan Information -->
+<div class="container mt-5">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <h3>Home Loan Information</h3>
+          <p>Get your dream home with our flexible and affordable home loans.</p>
+        </div>
+        <div class="swiper-slide">
+          <h3>Car Loan Information</h3>
+          <p>Drive away with your dream car today with our easy car loans.</p>
+        </div>
+      </div>
+      <!-- Swiper Navigation -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap and SwiperJS Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

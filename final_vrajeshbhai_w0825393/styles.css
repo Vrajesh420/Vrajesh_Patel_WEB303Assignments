@@ -1,0 +1,44 @@
+@media (min-width: 768px) {
+    body {
+      background-color: #d3f0b7; 
+    }
+    .swiper-container {
+      height: 200px; 
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      background-color: #93aad8; 
+    }
+    .swiper-container {
+      height: 150px; 
+      margin-top: 20px;
+    }
+  }
+
+.swiper-container {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .swiper-button-prev, .swiper-button-next {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    height: auto;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .swiper-button-prev {
+    left: 0;
+  }
+  
+  .swiper-button-next {
+    right: 0;
+  }
+  
